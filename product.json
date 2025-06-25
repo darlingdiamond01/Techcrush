@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Men's White Cotton Shirt",
+    "category": "Shirts",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1584466977770-5f05c2af8c7d"
+  },
+  {
+    "id": 2,
+    "name": "Women's Blue Denim Jacket",
+    "category": "Jackets",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1618354691323-1b1ae6d36d8f"
+  },
+  {
+    "id": 3,
+    "name": "Classic Leather Handbag",
+    "category": "Bags",
+    "price": 79.95,
+    "image": "https://images.unsplash.com/photo-1600180758890-6d91813d2b09"
+  },
+  {
+    "id": 4,
+    "name": "Men's Running Shoes",
+    "category": "Shoes",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1528701800489-20be32765956"
+  },
+  {
+    "id": 5,
+    "name": "Women's High Heels",
+    "category": "Shoes",
+    "price": 69.99,
+    "image": "https://images.unsplash.com/photo-1576179635662-fd5c858a44f8"
+  },
+  {
+    "id": 6,
+    "name": "Unisex Canvas Backpack",
+    "category": "Bags",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 7,
+    "name": "Women's Summer Dress",
+    "category": "Dresses",
+    "price": 34.50,
+    "image": "https://images.unsplash.com/photo-1520975911459-4583d7e1225c"
+  },
+  {
+    "id": 8,
+    "name": "Men's Hoodie",
+    "category": "Shirts",
+    "price": 45.00,
+    "image": "https://images.unsplash.com/photo-1585386959984-a415522e3f5d"
+  },
+  {
+    "id": 9,
+    "name": "Casual Sneakers",
+    "category": "Shoes",
+    "price": 42.99,
+    "image": "https://images.unsplash.com/photo-1600180758890-6d91813d2b09"
+  },
+  {
+    "id": 10,
+    "name": "Women's Tote Bag",
+    "category": "Bags",
+    "price": 59.95,
+    "image": "https://images.unsplash.com/photo-1603575445498-4b6a25c05955"
+  }
+]

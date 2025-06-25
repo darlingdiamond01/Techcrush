@@ -1,28 +1,40 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Responsive AWS Static Site</title>
+  <title>DARLING DIAMOND CLOTHING</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>🚀 My AWS Static Website</h1>
-    <p>Deployed via AWS S3 & CLI</p>
+    <h1>🛍️ DARLING DIAMOND CLOTHING</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+    </nav>
   </header>
 
-  <main>
-    <img src="images/hero.jpg" alt="Hero Image" class="hero" />
-    <p>Welcome to my responsive static site. It's mobile-friendly and powered by AWS!</p>
-    <button onclick="greet()">Click Me</button>
+  <main class="home">
+    <section class="intro">
+      <h2>Welcome to DARLING DIAMOND CLOTHING</h2>
+      <p>Discover the latest fashion trends. Stylish, affordable, and delivered to your door.</p>
+      <a href="products.html" class="btn">Shop Now</a>
+    </section>
+    <section class="featured">
+      <h3>Featured Products</h3>
+      <div class="product-grid" id="featured-products">
+        <!-- Products inserted via JS -->
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Patrick | Hosted on AWS S3</p>
+    <p>&copy; 2025 DARLING DIAMOND CLOTHING. All rights reserved.</p>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
