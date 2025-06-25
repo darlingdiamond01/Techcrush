@@ -21,7 +21,7 @@ function displayProducts(products) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('http://localhost:5000/api/products')
+  fetch('http://darling-backend.onrender.com/api/products')
     .then(res => res.json())
     .then(data => {
       allProducts = data;
@@ -85,3 +85,4 @@ function applyFilters() {
 
   displayProducts(filtered);
 }
+
